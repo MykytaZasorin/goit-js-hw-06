@@ -18,14 +18,16 @@ class Storage {
     }
 }
 
+console.log("task-2:",);
+
 const storage = new Storage(["Nanitoids", "Prolonger", "Antigravitator"]);
-console.log("t2-1:", storage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator"]
+console.log(storage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator"]
 
 storage.addItem("Droid");
-console.log("t2-2:", storage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator", "Droid"]
+console.log(storage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator", "Droid"]
 
 storage.removeItem("Prolonger");
-console.log("t2-2:", storage.getItems()); // ["Nanitoids", "Antigravitator", "Droid"]
+console.log(storage.getItems()); // ["Nanitoids", "Antigravitator", "Droid"]
 
 storage.removeItem("Scaner");
-console.log("t2-2:", storage.getItems()); // ["Nanitoids", "Antigravitator", "Droid"]
+console.log(storage.getItems()); // ["Nanitoids", "Antigravitator", "Droid"]
